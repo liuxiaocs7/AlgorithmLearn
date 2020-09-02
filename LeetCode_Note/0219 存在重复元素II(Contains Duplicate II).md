@@ -1,6 +1,6 @@
-# 0000 中文题目(英文题目)
+# 0219. 存在重复元素 II(Contains Duplicate II)
 
-> 题目链接：[力扣](https://leetcode-cn.com/problems/contains-duplicate-ii/) | [LeetCode](2) | [AcWing](3)
+> 题目链接：[力扣](https://leetcode-cn.com/problems/contains-duplicate-ii/) | [LeetCode]([2](https://leetcode.com/problems/contains-duplicate-ii/)) | [AcWing]([3](https://www.acwing.com/activity/content/problem/content/2600/1/))
 
 ## 题目
 
