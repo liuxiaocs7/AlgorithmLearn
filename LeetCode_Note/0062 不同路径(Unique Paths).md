@@ -1,6 +1,6 @@
 # 0062 不同路径(Unique Paths)
 
-> 题目链接：[力扣](https://leetcode-cn.com/problems/unique-paths/description/) | [LeetCode](https://leetcode.com/problems/unique-paths/description/) | [AcWing]([3](https://www.acwing.com/activity/content/problem/content/2407/1/))
+> 题目链接：[力扣](https://leetcode-cn.com/problems/unique-paths/description/) | [LeetCode](https://leetcode.com/problems/unique-paths/description/) | [AcWing](https://www.acwing.com/activity/content/problem/content/2407/1/)
 
 ## 题目
 
