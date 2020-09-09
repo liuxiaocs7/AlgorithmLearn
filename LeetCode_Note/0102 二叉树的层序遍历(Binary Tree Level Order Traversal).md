@@ -63,7 +63,7 @@ public:
                 if(t->left) q.push(t->left);
                 if(t->right) q.push(t->right);
             }
-            ans.push_back(row); 
+            ans.push_back(row);
         }
         return ans;
     }
