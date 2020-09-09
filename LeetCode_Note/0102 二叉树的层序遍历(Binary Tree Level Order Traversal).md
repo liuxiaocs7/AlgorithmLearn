@@ -32,12 +32,42 @@
 
 ## 思路1
 
+【BFS】
+宽度优先遍历，一层一层来做。即：
+
+1. 将根节点插入队列中；
+2. 创建一个新队列，用来按顺序保存下一层的所有子节点；
+3. 对于当前队列中的所有节点，按顺序依次将儿子加入新队列，并将当前节点的值记录在答案中；
+4. 重复步骤2-3，直到队列为空为止。
+
 > 时间复杂度 $O(N)$，空间复杂度 $O(N)$
 
 ## 代码1
 
 ```cpp
-
+class Solution {
+public:
+    vector<vector<int>> levelOrder(TreeNode* root) {
+        vector<vector<int>> ans;
+        queue<TreeNode*> q;
+        if(root) q.push(root);
+        while(!q.empty())
+        {
+            vector<int> row;
+            int sz = q.size();
+            for(int i = 0; i < sz; i++)
+            {
+                TreeNode *t = q.front();
+                q.pop();
+                row.push_back(t->val);
+                if(t->left) q.push(t->left);
+                if(t->right) q.push(t->right);
+            }
+            ans.push_back(row); 
+        }
+        return ans;
+    }
+};
 ```
 
 ---
