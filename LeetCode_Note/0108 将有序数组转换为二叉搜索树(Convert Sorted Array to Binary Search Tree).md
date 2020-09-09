@@ -43,7 +43,7 @@ public:
 
     TreeNode* build(vector<int> &nums, int l, int r)
     {
-        if(l > r) return NULL; 
+        if(l > r) return NULL;
         int mid = (l + r) / 2;
         auto root = new TreeNode(nums[mid]);
         root->left = build(nums, l, mid - 1);
