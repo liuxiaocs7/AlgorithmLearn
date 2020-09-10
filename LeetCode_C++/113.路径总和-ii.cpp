@@ -26,17 +26,9 @@ public:
     void dfs(TreeNode* root, int sum)
     {
         if(!root) return;
-        if(!root->left && !root->right)
-        {
-            if(sum == root->val)
-            {
-                path.push_back(root->val);
-                ans.push_back(path);
-                path.pop_back();
-            }
-            return;
-        }
         path.push_back(root->val);
+        if(!root->left && !root->right && sum == root->val)
+            ans.push_back(path);
         dfs(root->left, sum - root->val);
         dfs(root->right, sum - root->val);
         path.pop_back();
