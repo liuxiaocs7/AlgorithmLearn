@@ -17,7 +17,7 @@ public:
             for(int j = 0; j < n; j++)
             {
                 if(!i && !j) dp[i][j] = grid[i][j];
-                if(i) dp[i][j] = dp[i - 1][j] + grid[i][j];
+                if(i) dp[i][j] = min(dp[i][j], dp[i - 1][j] + grid[i][j]);
                 if(j) dp[i][j] = min(dp[i][j], dp[i][j - 1] + grid[i][j]);
             }
         }
