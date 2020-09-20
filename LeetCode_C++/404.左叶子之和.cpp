@@ -16,23 +16,17 @@
  */
 class Solution {
 public:
-    bool isLeafNode(TreeNode* node) {
-        return !node->left && !node->right;
-    }
-
-    int dfs(TreeNode* node) {
-        int ans = 0;
-        if (node->left) {
-            ans += isLeafNode(node->left) ? node->left->val : dfs(node->left);
-        }
-        if (node->right && !isLeafNode(node->right)) {
-            ans += dfs(node->right);
-        }
-        return ans;
-    }
-
     int sumOfLeftLeaves(TreeNode* root) {
-        return root ? dfs(root) : 0;
+        if(!root) return 0;
+
+        int sum = 0;
+        if(root->left && !root->left->left && !root->left->right)
+            sum += root->left->val;
+
+        sum += sumOfLeftLeaves(root->left);
+        sum += sumOfLeftLeaves(root->right);
+
+        return sum;
     }
 };
 // @lc code=end
