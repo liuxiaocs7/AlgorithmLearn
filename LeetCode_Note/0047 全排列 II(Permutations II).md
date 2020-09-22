@@ -1,10 +1,34 @@
-/*
- * @lc app=leetcode.cn id=47 lang=cpp
- *
- * [47] 全排列 II
- */
+# 0047 全排列 II(Permutations II)
 
-// @lc code=start
+> 题目链接：[力扣](https://leetcode-cn.com/problems/permutations-ii/) | [LeetCode](https://leetcode.com/problems/permutations-ii/) | [AcWing](https://www.acwing.com/activity/content/problem/content/2384/1/)
+
+## 题目
+
+给定一个可包含重复数字的序列，返回所有不重复的全排列。
+
+示例:
+
+```plain
+输入: [1,1,2]
+输出:
+[
+  [1,1,2],
+  [1,2,1],
+  [2,1,1]
+]
+```
+
+---
+
+## 思路1
+
+使用`path`记录一组解，`vis` 记录该位置是否被选择过。
+
+> 时间复杂度 $O(N \times n!)$，空间复杂度 $O(N)$
+
+## 代码1
+
+```cpp
 class Solution {
     vector<vector<int>> ans;
     vector<int> path;
@@ -39,5 +63,16 @@ public:
         }
     }
 };
-// @lc code=end
+```
 
+---
+
+## 思路2
+
+> 时间复杂度 $O(N)$，空间复杂度 $O(N)$
+
+## 代码2
+
+```cpp
+
+```
