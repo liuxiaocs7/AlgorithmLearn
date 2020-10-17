@@ -91,7 +91,7 @@ class Solution {
             }
         }
     }
-    
+
     public List<List<Integer>> permute(int[] nums) {
         vis = new boolean[nums.length];
         dfs(0, nums);
