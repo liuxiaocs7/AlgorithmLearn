@@ -38,9 +38,9 @@
 
 ## 思路1
 
-【DFS】按行遍历，其中 `col[x]` ,`dg[y - x + n]` , `udg[y + x]` 分别记录的是该位置的列，斜，反斜线上是否已经存在过，若均不存在，填入皇后，并递归到下一行.
+【DFS】按行 `y` 遍历，其中 `col[x]` ,`dg[y - x + n]` , `udg[y + x]` 分别记录的是该位置的列，斜，反斜线上是否已经存在过，若均不存在，填入皇后，并递归到下一行.
 
-> 时间复杂度 $O(N!)$，~~空间复杂度 $O(N)$~~
+> 时间复杂度 $O(N!)$，空间复杂度 $O(N)$
 
 ## 代码1
 
@@ -81,6 +81,56 @@ public:
         }
     }
 };
+```
+
+```java
+class Solution {
+    private int N = 20;
+    boolean[] col;
+    boolean[] dg;
+    boolean[] udg;
+    List<List<String>> ans = new ArrayList<List<String>>();
+    char[][] g;
+
+    void dfs(int u) {
+        if(u == N) {
+            List<String> path = new ArrayList<>();
+            for(int i = 0; i < N; i++) {
+                String t = "";
+                for(int j = 0; j < N; j++)
+                    t += g[i][j];
+                path.add(t);
+            }
+            ans.add(path);
+            return;
+        }
+
+        for(int i = 0; i < N; i++) {
+            if(!col[i] && !dg[u + i] && !udg[u - i + N]) {
+                col[i] = dg[u + i] = udg[u - i + N] = true;
+                g[u][i] = 'Q';
+                dfs(u + 1);
+                col[i] = dg[u + i] = udg[u - i + N] = false;
+                g[u][i] = '.';
+            }
+        }
+    }
+
+    public List<List<String>> solveNQueens(int n) {
+        N = n;
+        g = new char[n][n];
+        col = new boolean[n];
+        dg = new boolean[n * 2];
+        udg = new boolean[n * 2];
+
+        for(int i = 0; i < n; i++)
+            for(int j = 0; j < n; j++)
+                g[i][j] = '.';
+
+        dfs(0);
+        return ans;
+    }
+}
 ```
 
 ---
