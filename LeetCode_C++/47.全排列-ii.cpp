@@ -14,11 +14,11 @@ public:
         sort(nums.begin(), nums.end());
         path = vector<int>(nums.size());
         vis = vector<bool>(nums.size());
-        dfs(nums, 0);
+        dfs(0, nums);
         return ans;
     }
 
-    void dfs(vector<int> &nums, int u)
+    void dfs(int u, vector<int> &nums)
     {
         if(u == nums.size())
         {
@@ -33,7 +33,7 @@ public:
                 if(i && nums[i - 1] == nums[i] && !vis[i - 1]) continue;
                 path[u] = nums[i];
                 vis[i] = true;
-                dfs(nums, u + 1);
+                dfs(u + 1, nums);
                 vis[i] = false;
             }
         }
