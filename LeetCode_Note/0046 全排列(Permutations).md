@@ -69,6 +69,37 @@ public:
 };
 ```
 
+```java
+class Solution {
+    List<List<Integer>> ans = new ArrayList<List<Integer>>();
+    boolean[] vis;
+    List<Integer> path = new ArrayList<Integer>();
+
+    void dfs(int u, int[] nums) {
+        if(u == nums.length) {
+            ans.add(new ArrayList<Integer>(path));
+            return;
+        }
+
+        for(int i = 0; i < nums.length; i++) {
+            if(!vis[i]) {
+                path.add(nums[i]);  // 添加
+                vis[i] = true;
+                dfs(u + 1, nums);
+                vis[i] = false;
+                path.remove(path.size() - 1);  // 移除
+            }
+        }
+    }
+    
+    public List<List<Integer>> permute(int[] nums) {
+        vis = new boolean[nums.length];
+        dfs(0, nums);
+        return ans;
+    }
+}
+```
+
 ---
 
 ## 思路2
