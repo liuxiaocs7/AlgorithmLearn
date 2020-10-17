@@ -16,6 +16,7 @@
 
 示例：
 
+```plain
 输入：4
 输出：[
  [".Q..",  // 解法 1
@@ -29,10 +30,11 @@
   ".Q.."]
 ]
 解释: 4 皇后问题存在两个不同的解法。
+```
 
 提示：
 
-皇后彼此不能相互攻击，也就是说：任何两个皇后都不能处于同一条横行、纵行或斜线上。
+- 皇后彼此不能相互攻击，也就是说：任何两个皇后都不能处于同一条横行、纵行或斜线上。
 
 ---
 
@@ -85,10 +87,8 @@ public:
 
 ```java
 class Solution {
-    private int N = 20;
-    boolean[] col;
-    boolean[] dg;
-    boolean[] udg;
+    private int N;
+    boolean[] col, dg, udg;
     List<List<String>> ans = new ArrayList<List<String>>();
     char[][] g;
 
