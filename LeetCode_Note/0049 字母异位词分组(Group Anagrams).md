@@ -28,12 +28,11 @@
 ## 思路1
 
 【哈希表，字符串】
-由于互为字母异位词的两个字符串包含的字母相同，因此对两个字符串分别进行排序之后得到的字符串一定是相同的，故可以将排序之后的字符串作为哈希表的键。
+由于互为字母异位词的两个字符串包含的字母相同，因此对两个字符串分别进行排序之后得到的字符串一定是相同的，故可以将排序之后的字符串作为哈希表的**键**。
 
 > 时间复杂度 $O(N)$，空间复杂度 $O(N)$  
 > 时间复杂度：$O(nk\log k)$，其中 $n$ 是 $\textit{strs}$ 中的字符串的数量，$k$ 是 $\textit{strs}$ 中的字符串的的**最大长度**。需要遍历 $n$ 个字符串，对于每个字符串，需要 $O(k \log k)$ 的时间进行**排序**以及 $O(1)$ 的时间**更新哈希表**，因此总时间复杂度是 $O(nk \log k)$。  
 > 空间复杂度：$O(nk)$，其中 $n$ 是 $\textit{strs}$ 中的字符串的数量，$k$ 是 $\textit{strs}$ 中的字符串的的**最大长度**。需要用哈希表存储全部字符串。
-
 
 ## 代码1
 
@@ -60,7 +59,7 @@ public:
 ```java
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
-        Map<String, List<String>> map = new HashMap<String, List<String>>();
+        Map<String, List<String>> map = new HashMap<>();
         for(String str: strs) {
             char[] array = str.toCharArray();
             Arrays.sort(array);
