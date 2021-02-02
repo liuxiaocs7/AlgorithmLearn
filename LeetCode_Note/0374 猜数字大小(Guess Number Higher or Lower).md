@@ -1,6 +1,6 @@
 # 0374 猜数字大小(Guess Number Higher or Lower)
 
-> 题目链接：[力扣](https://leetcode-cn.com/problems/guess-number-higher-or-lower/) | [LeetCode](https://leetcode.com/problems/guess-number-higher-or-lower/) | [AcWing](3)
+> 题目链接：[力扣](https://leetcode-cn.com/problems/guess-number-higher-or-lower/) | [LeetCode](https://leetcode.com/problems/guess-number-higher-or-lower/) | [AcWing](https://www.acwing.com/activity/content/problem/content/2750/1/)
 
 ## 题目
 
