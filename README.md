@@ -80,7 +80,7 @@ My Algorithm Learning Path For Work
 |[0977-有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 双指针 | :star: |
 |[0189-旋转数组](https://leetcode-cn.com/problems/rotate-array/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 双指针 | :star::star: |
 |[0283-移动零](https://leetcode-cn.com/problems/move-zeroes/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 双指针 | :star: |
-|[0167-两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) \| [LeetCode]() \| [AcWing]() | \| [题解]() 双指针 | :star: |
+|[0167-两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) \| [LeetCode]() \| [AcWing]() \| [题解]() |  双指针 | :star: |
 |[0189-旋转数组](https://leetcode-cn.com/problems/rotate-array/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 双指针 | :star: |
 |[0557-反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 双指针 | :star: |
 |[0876-链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 双指针 | :star: |
