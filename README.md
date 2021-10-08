@@ -104,3 +104,18 @@ My Algorithm Learning Path For Work
 |[0191-位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 位运算 | :star: |
 |[0190-颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 位运算 | :star: |
 |[0136-只出现一次的数字](https://leetcode-cn.com/problems/single-number/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 位运算 | :star: |
+
+
+## 算法基础学习计划
+
+| 简单 | 中等 | 困难 |
+|:-:|:-:|:-:|
+| 3 | 42 | 2 |
+
+| 题目 | 标签 | 难度 |
+|:-|:-:|:-:|
+|[0034-在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 二分 | :star::star: |
+|[0033-搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 二分 | :star::star: |
+|[0074-搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 二分 | :star::star: |
+|[0153-寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 二分 | :star::star: |
+|[0162-寻找峰值](https://leetcode-cn.com/problems/find-peak-element/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 二分 | :star::star: |
