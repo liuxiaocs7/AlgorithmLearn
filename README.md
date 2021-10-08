@@ -17,7 +17,6 @@ My Algorithm Learning Path For Work
 |[0704-二分查找](https://leetcode-cn.com/problems/binary-search/) \| [力扣]() \| [题解]() | 二分 | :star: |
 
 
-
 ## 数据结构入门学习计划
 
 | 简单 | 中等 | 困难 |
