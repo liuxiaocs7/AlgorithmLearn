@@ -122,3 +122,7 @@ My Algorithm Learning Path For Work
 
 
 ## 动态规划入门学习计划
+
+| 简单 | 中等 | 困难 |
+|:-:|:-:|:-:|
+| 10 | 34 | 2 |
