@@ -1,23 +1,30 @@
 # AlgorithmLearn
 My Algorithm Learning Path For Work
 
-## LeetCode
-
-| 力扣 | LeetCode | AcWing | 题解 | 标签 | 难度 |
-|:-:|:-:|:-:|:-:|:-:|:-:|
-|[0162-寻找峰值](https://leetcode-cn.com/problems/find-peak-element/) | | | | 二分 | :star: |
-
-## 剑指Offer
-
-
-## 剑指Offer-专题版
+## 力扣/LeetCode
 
 | 题目 | 标签 | 难度 |
 |:-|:-:|:-:|
-|[0704-二分查找](https://leetcode-cn.com/problems/binary-search/) \| [力扣]() \| [题解]() | 二分 | :star: |
+|[0162-寻找峰值](https://leetcode-cn.com/problems/find-peak-element/) \| [LeetCode](https://leetcode.com/problems/find-peak-element/) \| [AcWing]() \| [题解]() | 二分 | :star: |
 
 
-## 数据结构入门学习计划
+## 剑指 Offer（第 2 版）
+
+| 题目 | 标签 | 难度 |
+|:-|:-:|:-:|
+|[剑指 Offer 09. 用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) \| [力扣]() \| [题解]() | 栈/队列 | :star: |
+
+
+## 剑指 Offer（专项突击版）
+
+| 题目 | 标签 | 难度 |
+|:-|:-:|:-:|
+|[剑指 Offer II 001. 整数除法](https://leetcode-cn.com/problems/xoh6Oh/) \| [力扣](https://leetcode-cn.com/problems/divide-two-integers/) \| [题解]() | 整数 | :star: |
+
+
+## LeetBook/学习计划
+
+### 数据结构入门学习计划
 
 | 简单 | 中等 | 困难 |
 |:-:|:-:|:-:|
@@ -60,7 +67,7 @@ My Algorithm Learning Path For Work
 |[0235. 二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 树 | :star: |
 
 
-## 数据结构基础学习计划
+### 数据结构基础学习计划
 
 | 简单 | 中等 | 困难 |
 |:-:|:-:|:-:|
@@ -121,7 +128,7 @@ My Algorithm Learning Path For Work
 
 
 
-## 算法入门学习计划
+### 算法入门学习计划
 
 | 简单 | 中等 | 困难 |
 |:-:|:-:|:-:|
@@ -162,7 +169,7 @@ My Algorithm Learning Path For Work
 |[0136-只出现一次的数字](https://leetcode-cn.com/problems/single-number/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 位运算 | :star: |
 
 
-## 算法基础学习计划
+### 算法基础学习计划
 
 | 简单 | 中等 | 困难 |
 |:-:|:-:|:-:|
@@ -177,7 +184,7 @@ My Algorithm Learning Path For Work
 |[0162-寻找峰值](https://leetcode-cn.com/problems/find-peak-element/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 二分 | :star::star: |
 
 
-## 动态规划入门学习计划
+### 动态规划入门学习计划
 
 | 简单 | 中等 | 困难 |
 |:-:|:-:|:-:|
@@ -194,12 +201,12 @@ My Algorithm Learning Path For Work
 |[0740-删除并获得点数](https://leetcode-cn.com/problems/delete-and-earn/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
 |[0055-跳跃游戏](https://leetcode-cn.com/problems/jump-game/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
 |[0045-跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
-|[0053-最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0053-最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star: |
 |[0918-环形子数组的最大和](https://leetcode-cn.com/problems/maximum-sum-circular-subarray/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
 |[0152-乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
 |[1567. 乘积为正数的最长子数组长度](https://leetcode-cn.com/problems/maximum-length-of-subarray-with-positive-product/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
 |[1014-最佳观光组合](https://leetcode-cn.com/problems/best-sightseeing-pair/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
-|[0121-买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0121-买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star: |
 |[0122-买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
 |[0309-最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
 |[0714-买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
