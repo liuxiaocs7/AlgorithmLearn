@@ -99,7 +99,7 @@ My Algorithm Learning Path For Work
 |[0025-K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 链表 | :star::star::star: |
 |[0143-重排链表](https://leetcode-cn.com/problems/reorder-list/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 链表 | :star::star: |
 |[0155-最小栈](https://leetcode-cn.com/problems/min-stack/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 栈/队列 | :star::star: |
-|[1249-移除无效的括号](https://leetcode-cn.com/problems/reorder-list/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 栈/队列 | :star::star: |
+|[1249-移除无效的括号](https://leetcode-cn.com/problems/minimum-remove-to-make-valid-parentheses/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 栈/队列 | :star::star: |
 |[1823-找出游戏的获胜者](https://leetcode-cn.com/problems/find-the-winner-of-the-circular-game/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 栈/队列 | :star::star: |
 |[0108-将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 树 | :star::star: |
 |[0105-从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 树 | :star::star: |
