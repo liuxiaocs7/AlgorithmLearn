@@ -62,6 +62,62 @@ My Algorithm Learning Path For Work
 
 ## 数据结构基础学习计划
 
+| 简单 | 中等 | 困难 |
+|:-:|:-:|:-:|
+| 11 | 37 | 2 |
+
+| 题目 | 标签 | 难度 |
+|:-|:-:|:-:|
+|[0136-只出现一次的数字](https://leetcode-cn.com/problems/single-number/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 数组 | :star: |
+|[0169-多数元素](https://leetcode-cn.com/problems/majority-element/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 数组 | :star: |
+|[0015-三数之和](https://leetcode-cn.com/problems/3sum/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 数组 | :star::star: |
+|[0075-颜色分类](https://leetcode-cn.com/problems/sort-colors/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 数组 | :star::star: |
+|[0056-合并区间](https://leetcode-cn.com/problems/merge-intervals/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 数组 | :star::star: |
+|[0706-设计哈希映射](https://leetcode-cn.com/problems/design-hashmap/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 数组 | :star: |
+|[0119-杨辉三角 II](https://leetcode-cn.com/problems/pascals-triangle-ii/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 数组 | :star: |
+|[0048-旋转图像](https://leetcode-cn.com/problems/rotate-image/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 数组 | :star::star: |
+|[0059-螺旋矩阵 II](https://leetcode-cn.com/problems/spiral-matrix-ii/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 数组 | :star::star: |
+|[0240-搜索二维矩阵 II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 数组 | :star::star: |
+|[0435-无重叠区间](https://leetcode-cn.com/problems/non-overlapping-intervals/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 数组 | :star::star: |
+|[0334-递增的三元子序列](https://leetcode-cn.com/problems/increasing-triplet-subsequence/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 数组 | :star::star: |
+|[0238-除自身以外数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 数组 | :star::star: |
+|[0560-和为 K 的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 数组 | :star::star: |
+|[0415-字符串相加](https://leetcode-cn.com/problems/add-strings/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 字符串 | :star: |
+|[0409-最长回文串](https://leetcode-cn.com/problems/longest-palindrome/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 字符串 | :star: |
+|[0290-单词规律](https://leetcode-cn.com/problems/word-pattern/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 字符串 | :star: |
+|[0763-划分字母区间](https://leetcode-cn.com/problems/partition-labels/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 字符串 | :star::star: |
+|[0049-字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 字符串 | :star::star: |
+|[0043-字符串相乘](https://leetcode-cn.com/problems/multiply-strings/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 字符串 | :star::star: |
+|[0187-重复的DNA序列](https://leetcode-cn.com/problems/repeated-dna-sequences/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 字符串 | :star::star: |
+|[0005-最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 字符串 | :star::star: |
+|[0002-两数相加](https://leetcode-cn.com/problems/add-two-numbers/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 链表 | :star::star: |
+|[0142-环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 链表 | :star::star: |
+|[0160-相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 链表 | :star: |
+|[0082-删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 链表 | :star::star: |
+|[0024-两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 链表 | :star::star: |
+|[0707-设计链表](https://leetcode-cn.com/problems/design-linked-list/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 链表 | :star::star: |
+|[0025-K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 链表 | :star::star::star: |
+|[0143-重排链表](https://leetcode-cn.com/problems/reorder-list/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 链表 | :star::star: |
+|[0155-最小栈](https://leetcode-cn.com/problems/min-stack/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 栈/队列 | :star::star: |
+|[1249-移除无效的括号](https://leetcode-cn.com/problems/reorder-list/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 栈/队列 | :star::star: |
+|[1823-找出游戏的获胜者](https://leetcode-cn.com/problems/find-the-winner-of-the-circular-game/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 栈/队列 | :star::star: |
+|[0108-将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 树 | :star::star: |
+|[0105-从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 树 | :star::star: |
+|[0103-二叉树的锯齿形层序遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 树 | :star::star: |
+|[0199-二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 树 | :star::star: |
+|[0113-路径总和 II](https://leetcode-cn.com/problems/path-sum-ii/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 树 | :star::star: |
+|[0450-删除二叉搜索树中的节点](https://leetcode-cn.com/problems/delete-node-in-a-bst/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 树 | :star::star: |
+|[0230-二叉搜索树中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 树 | :star::star: |
+|[0173-二叉搜索树迭代器](https://leetcode-cn.com/problems/binary-search-tree-iterator/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 树 | :star::star: |
+|[0236-二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 树 | :star::star: |
+|[0297-二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 树 | :star::star::star: |
+|[0997-找到小镇的法官](https://leetcode-cn.com/problems/find-the-town-judge/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 图 | :star: |
+|[1557-可以到达所有点的最少点数目](https://leetcode-cn.com/problems/minimum-number-of-vertices-to-reach-all-nodes/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 图 | :star::star: |
+|[0841-钥匙和房间](https://leetcode-cn.com/problems/keys-and-rooms/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 图 | :star::star: |
+|[0215-数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 优先队列 | :star::star: |
+|[0347-前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 优先队列 | :star::star: |
+|[0451-根据字符出现频率排序](https://leetcode-cn.com/problems/sort-characters-by-frequency/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 优先队列 | :star::star: |
+|[0973-最接近原点的 K 个点](https://leetcode-cn.com/problems/k-closest-points-to-origin/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 优先队列 | :star::star: |
 
 
 
