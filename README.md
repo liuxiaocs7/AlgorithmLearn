@@ -182,3 +182,52 @@ My Algorithm Learning Path For Work
 | 简单 | 中等 | 困难 |
 |:-:|:-:|:-:|
 | 10 | 34 | 2 |
+
+| 题目 | 标签 | 难度 |
+|:-|:-:|:-:|
+|[0509-斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star: |
+|[1137-第 N 个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star:|
+|[0070-爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star: |
+|[0746-使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star:|
+|[0198-打家劫舍](https://leetcode-cn.com/problems/house-robber/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0213-打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0740-删除并获得点数](https://leetcode-cn.com/problems/delete-and-earn/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0055-跳跃游戏](https://leetcode-cn.com/problems/jump-game/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0045-跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0053-最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0918-环形子数组的最大和](https://leetcode-cn.com/problems/maximum-sum-circular-subarray/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0152-乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[1567. 乘积为正数的最长子数组长度](https://leetcode-cn.com/problems/maximum-length-of-subarray-with-positive-product/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[1014-最佳观光组合](https://leetcode-cn.com/problems/best-sightseeing-pair/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0121-买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0122-买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0309-最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0714-买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0139-单词拆分](https://leetcode-cn.com/problems/word-break/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0042-接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star::star: |
+|[0413-等差数列划分](https://leetcode-cn.com/problems/arithmetic-slices/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0091-解码方法](https://leetcode-cn.com/problems/decode-ways/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0264-丑数 II](https://leetcode-cn.com/problems/ugly-number-ii/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0096-不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0118-杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star: |
+|[0119-杨辉三角 II](https://leetcode-cn.com/problems/pascals-triangle-ii/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star: |
+|[0931-下降路径最小和](https://leetcode-cn.com/problems/minimum-falling-path-sum/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0120-三角形最小路径和](https://leetcode-cn.com/problems/triangle/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[1314-矩阵区域和](https://leetcode-cn.com/problems/matrix-block-sum/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0304-二维区域和检索 - 矩阵不可变](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0062-不同路径](https://leetcode-cn.com/problems/unique-paths/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0063-不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0064-最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0221-最大正方形](https://leetcode-cn.com/problems/maximal-square/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0005-最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0516-最长回文子序列](https://leetcode-cn.com/problems/longest-palindromic-subsequence/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0300-最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0376-摆动序列](https://leetcode-cn.com/problems/wiggle-subsequence/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0392-判断子序列](https://leetcode-cn.com/problems/is-subsequence/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star: |
+|[1143-最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0072-编辑距离](https://leetcode-cn.com/problems/edit-distance/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star::star: |
+|[0322-零钱兑换](https://leetcode-cn.com/problems/coin-change/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0518-零钱兑换 II](https://leetcode-cn.com/problems/coin-change-2/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0377-组合总和 Ⅳ](https://leetcode-cn.com/problems/combination-sum-iv/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0343-整数拆分](https://leetcode-cn.com/problems/integer-break/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0279-完全平方数](https://leetcode-cn.com/problems/perfect-squares/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
