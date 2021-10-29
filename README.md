@@ -182,6 +182,8 @@ My Algorithm Learning Path For Work
 |[0074-搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 二分 | :star::star: |
 |[0153-寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 二分 | :star::star: |
 |[0162-寻找峰值](https://leetcode-cn.com/problems/find-peak-element/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 二分 | :star::star: |
+|[0082-删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 二分 | :star::star: |
+|[0015-三数之和](https://leetcode-cn.com/problems/3sum/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 二分 | :star::star: |
 
 
 ### 动态规划入门学习计划
