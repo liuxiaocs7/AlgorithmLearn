@@ -6,6 +6,9 @@ My Algorithm Learning Path For Work
 | 题目 | 标签 | 难度 |
 |:-|:-:|:-:|
 |[0162-寻找峰值](https://leetcode-cn.com/problems/find-peak-element/) \| [LeetCode](https://leetcode.com/problems/find-peak-element/) \| [AcWing]() \| [题解]() | 二分 | :star: |
+|[0575-分糖果](https://leetcode-cn.com/problems/distribute-candies/) \| [LeetCode](https://leetcode.com/problems/distribute-candies/) \| [AcWing]() \| [题解]() | 哈希表 | :star: |
+|[0237-删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/) \| [LeetCode](https://leetcode.com/problems/delete-node-in-a-linked-list/) \| [AcWing]() \| [题解]() | 哈希表 | :star: |
+|[0407-接雨水 II](https://leetcode-cn.com/problems/trapping-rain-water-ii/) \| [LeetCode](https://leetcode.com/problems/trapping-rain-water-ii/) \| [AcWing]() \| [题解]() | Dijkstra | :star::star::star: |
 
 
 ## 剑指 Offer（第 2 版）
