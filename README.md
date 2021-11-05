@@ -187,6 +187,46 @@ My Algorithm Learning Path For Work
 |[0162-寻找峰值](https://leetcode-cn.com/problems/find-peak-element/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 二分 | :star::star: |
 |[0082-删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 二分 | :star::star: |
 |[0015-三数之和](https://leetcode-cn.com/problems/3sum/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 二分 | :star::star: |
+|[0844-比较含退格的字符串](https://leetcode-cn.com/problems/backspace-string-compare/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 双指针 | :star:|
+|[0986-区间列表的交集](https://leetcode-cn.com/problems/interval-list-intersections/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 双指针 | :star::star: |
+|[0011-盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 双指针 | :star::star: |
+|[0438-找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 滑动窗口 | :star::star: |
+|[0713-乘积小于K的子数组](https://leetcode-cn.com/problems/subarray-product-less-than-k/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 滑动窗口 | :star::star: |
+|[0209-长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 滑动窗口 | :star::star: |
+|[0200-岛屿数量](https://leetcode-cn.com/problems/number-of-islands/) \| [LeetCode]() \| [AcWing]() \| [题解]() | BFS/DFS | :star::star: |
+|[0547-省份数量](https://leetcode-cn.com/problems/number-of-provinces/) \| [LeetCode]() \| [AcWing]() \| [题解]() | BFS/DFS | :star::star: |
+|[0117-填充每个节点的下一个右侧节点指针 II](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/) \| [LeetCode]() \| [AcWing]() \| [题解]() | BFS/DFS | :star::star: |
+|[0572-另一棵树的子树](https://leetcode-cn.com/problems/subtree-of-another-tree/) \| [LeetCode]() \| [AcWing]() \| [题解]() | BFS/DFS | :star: |
+|[1091-二进制矩阵中的最短路径](https://leetcode-cn.com/problems/shortest-path-in-binary-matrix/) \| [LeetCode]() \| [AcWing]() \| [题解]() | BFS/DFS | :star::star: |
+|[0130-被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/) \| [LeetCode]() \| [AcWing]() \| [题解]() | BFS/DFS | :star::star: |
+|[0797-所有可能的路径](https://leetcode-cn.com/problems/all-paths-from-source-to-target/) \| [LeetCode]() \| [AcWing]() \| [题解]() | BFS/DFS | :star::star: |
+|[0078-子集](https://leetcode-cn.com/problems/subsets/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 递归/回溯 | :star::star: |
+|[0090-子集 II](https://leetcode-cn.com/problems/subsets-ii/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 递归/回溯 | :star::star: |
+|[0047-全排列 II](https://leetcode-cn.com/problems/permutations-ii/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 递归/回溯 | :star::star: |
+|[0039-组合总和](https://leetcode-cn.com/problems/combination-sum/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 递归/回溯 | :star::star: |
+|[0040-组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 递归/回溯 | :star::star: |
+|[0017-电话号码的字母组合I](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 递归/回溯 | :star::star: |
+|[0022-括号生成](https://leetcode-cn.com/problems/generate-parentheses/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 递归/回溯 | :star::star: |
+|[0079-单词搜索](https://leetcode-cn.com/problems/word-search/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 递归/回溯 | :star::star: |
+|[0213-打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0055-跳跃游戏](https://leetcode-cn.com/problems/jump-game/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0045-跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0062-不同路径](https://leetcode-cn.com/problems/unique-paths/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0005-最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0413-等差数列划分](https://leetcode-cn.com/problems/arithmetic-slices/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0091-解码方法](https://leetcode-cn.com/problems/decode-ways/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0139-单词拆分](https://leetcode-cn.com/problems/word-break/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0300-最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0673-最长递增子序列的个数](https://leetcode-cn.com/problems/number-of-longest-increasing-subsequence/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[1143-最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0583-两个字符串的删除操作](https://leetcode-cn.com/problems/delete-operation-for-two-strings/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0072-编辑距离](https://leetcode-cn.com/problems/edit-distance/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star::star: |
+|[0322-零钱兑换](https://leetcode-cn.com/problems/coin-change/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0343-整数拆分](https://leetcode-cn.com/problems/integer-break/) \| [LeetCode]() \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0201-数字范围按位与](https://leetcode-cn.com/problems/bitwise-and-of-numbers-range/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 位运算 | :star::star: |
+|[0384-打乱数组](https://leetcode-cn.com/problems/shuffle-an-array/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 模拟 | :star::star: |
+|[0202-快乐数](https://leetcode-cn.com/problems/happy-number/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 模拟 | :star: |
+|[0149. 直线上最多的点数](https://leetcode-cn.com/problems/max-points-on-a-line/) \| [LeetCode]() \| [AcWing]() \| [题解]() | 数学 | :star::star::star: |
 
 
 ### 动态规划入门学习计划
