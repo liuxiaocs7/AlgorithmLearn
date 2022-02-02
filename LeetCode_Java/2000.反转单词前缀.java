@@ -7,7 +7,7 @@
 // @lc code=start
 class Solution {
     public String reversePrefix(String word, char ch) {
-        int n = word.length(), idx = -1;
+        int idx = -1;
         char[] wordArray = word.toCharArray();
         for(int i = 0; i < word.length(); i++) {
             if(word.charAt(i) == ch) {
