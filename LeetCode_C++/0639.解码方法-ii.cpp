@@ -6,7 +6,7 @@
 
 // @lc code=start
 class Solution {
-public:
+public: 
     int numDecodings(string s) {
         int n = s.size(), MOD = 1e9 + 7;
         vector<long long> f(n + 1);
