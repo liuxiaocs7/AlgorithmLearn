@@ -161,6 +161,26 @@ class Solution {
 
 上述代码中的加法是从字符串的 **右端** 开始的，最低位保存在 `result` 的最左边，而通常数字最左边保存的是 **最高位**，因此，函数 $addBinary$ 在返回之前要将 `result` 进行 **翻转**。
 
+另一种等价写法：
+
+```java
+class Solution {
+    public String addBinary(String a, String b) {
+        StringBuilder sb = new StringBuilder();
+        int m = a.length() - 1;
+        int n = b.length() - 1;
+        int t = 0;
+        while(m >= 0 || n >= 0 || t != 0) {
+            if(m >= 0) t += a.charAt(m--) - '0';
+            if(n >= 0) t += b.charAt(n--) - '0';
+            sb.append(t % 2);
+            t /= 2;
+        }
+        return sb.reverse().toString();
+    }
+}
+```
+
 ### 面试题3：前n个数字二进制形式中1的个数
 
 ```plain
@@ -190,9 +210,9 @@ class Solution {
 若一个整数有 $k$ 位，对应的二进制形式中可能有 $O(k)$ 个 1。`while` 循环代码中对每个整数都将执行 $O(k)$ 次，因此总的时间复杂度为 $O(nk)$
 
 
-思路二：根据“i&（i-1）”计算i的二进制形式中1的个数
+思路二：根据`i&(i-1)`计算i的二进制形式中1的个数
 
-`i & (i - 1)` 将 `i` 的二进制形式中最右边的 `1` 变成 `0`，也即整数 `i` 的二进制形式中 `1` 的个数比 `i & (i - 1)` 的二进制形式中 `1` 的个数多 `1`。由于 `i & (i - 1)` 小于 `i`，因此其二进制表示中 `1` 的个数已经被计算出来并存储到数组中，直接获取并加 $1$ 即可。
+`i & (i - 1)` 将 `i` 的二进制形式中最右边的 `1` 变成 `0`，也即整数 `i` 的二进制形式中 `1` 的个数比 `i & (i - 1)` 的二进制形式中 `1` 的个数多 `1`。由于 `i & (i - 1)` **小于** `i`，因此其二进制表示中 `1` 的个数已经被计算出来并存储到数组中，直接获取并加 $1$ 即可。
 
 ```java
 class Solution {
@@ -258,6 +278,29 @@ class Solution {
 ```
 
 由于 `int` 类型有32位，因此创建一个长度位32的整形数组来存储数组 `nums` 中所有整数二进制形式中第 `i` 个数位之和。`(num >> (31 - i)) & 1` 得到整数 `num` 的二进制形式中第 `i` 个数位。最后根据bitSums将结果拼接起来，如果对应位的值模3不为0，则表示该位的值为1，否则为0。
+
+另一种等价写法：
+
+```java
+class Solution {
+    public int singleNumber(int[] nums) {
+        int[] bitSums = new int[32];
+        for(int num : nums) {
+            for(int i = 0; i < 32; i++) {
+                bitSums[i] += (num >> 31 - i) & 1;
+            }
+        }
+
+        int res = 0;
+        for(int i = 0; i < 32; i++) {
+            if(bitSums[i] % 3 != 0) {
+                res |= 1 << 31 - i;
+            }
+        }
+        return res;
+    }
+}
+```
 
 扩展：
 题目：输入一个整数数组，数组中只有一个数字出现m次，其他数字都出现n次，请找出那个唯一出现m次的数字。假设m不能被n整除。
