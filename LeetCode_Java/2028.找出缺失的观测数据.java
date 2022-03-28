@@ -7,28 +7,16 @@
 // @lc code=start
 class Solution {
     public int[] missingRolls(int[] rolls, int mean, int n) {
-        int m = rolls.length;
-        int tot = (m + n) * mean;
-        
-        int sumRolls = 0, sumN = 0;
-        for(int roll : rolls) {
-            sumRolls += roll;
-        }
-        sumN = tot - sumRolls;
-        if(sumN < n  || sumN > n * 6) {
-            return new int[0];
-        }
-
+        int m = rolls.length, cnt = m + n;
+        int t = mean * cnt;
+        for(int i : rolls) t -= i;
+        if(t < n || t > 6 * n) return new int[0];
         int[] res = new int[n];
-        for(int i = 0; i < n; i++) {
-            res[i] = 1;
-        }
-        sumN -= n;
-        for(int i = 0; i < n; i++) {
-            while(sumN > 0 && res[i] < 6) {
-                res[i]++;
-                sumN--;
-            }
+        Arrays.fill(res, t / n);
+        t -= t / n * n;
+        int k = 0;
+        while(t-- > 0) {
+            res[k++]++;
         }
         return res;
     }
