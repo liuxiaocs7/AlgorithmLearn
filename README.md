@@ -11,6 +11,13 @@ My Algorithm Learning Path For Work
 |[0407-接雨水 II](https://leetcode-cn.com/problems/trapping-rain-water-ii/) \| [LeetCode](https://leetcode.com/problems/trapping-rain-water-ii/) \| [AcWing]() \| [题解]() | Dijkstra | :star::star::star: |
 |[1446-连续字符](https://leetcode-cn.com/problems/consecutive-characters/) \| [LeetCode](https://leetcode.com/problems/consecutive-characters/) \| [AcWing]() \| [题解]() | 双指针 | :star: |
 
+| 题目 | 标签 | 难度 |
+|:-|:-:|:-:|
+|[0416-分割等和子集](https://leetcode.cn/problems/partition-equal-subset-sum/) \| [LeetCode](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/) \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0978-最长湍流子数组](https://leetcode.cn/problems/longest-turbulent-subarray/) \| [LeetCode](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/) \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[1305-两棵二叉搜索树中的所有元素](https://leetcode.cn/problems/all-elements-in-two-binary-search-trees/) \| [LeetCode](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/) \| [AcWing]() \| [题解]() | BST | :star::star: |
+
+
 
 ## 剑指 Offer（第 2 版）
 
