@@ -13,8 +13,11 @@ My Algorithm Learning Path For Work
 
 | 题目 | 标签 | 难度 |
 |:-|:-:|:-:|
-|[0416-分割等和子集](https://leetcode.cn/problems/partition-equal-subset-sum/) \| [LeetCode](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/) \| [AcWing]() \| [题解]() | DP | :star::star: |
-|[0978-最长湍流子数组](https://leetcode.cn/problems/longest-turbulent-subarray/) \| [LeetCode](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/) \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0416-分割等和子集](https://leetcode.cn/problems/partition-equal-subset-sum/) \| [LeetCode](https://leetcode.com/problems/partition-equal-subset-sum/) \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[0591-标签验证器](https://leetcode.cn/problems/tag-validator/) \| [LeetCode](https://leetcode.com/problems/tag-validator/) \| [AcWing]() \| [题解]() | 模拟 | :star::star: |
+|[0740-删除并获得点数](https://leetcode.cn/problems/delete-and-earn/) \| [LeetCode](https://leetcode.com/problems/delete-and-earn/) \| [AcWing](https://www.acwing.com/activity/content/problem/content/3330/) \| [题解]() | DP | :star::star: |
+|[0978-最长湍流子数组](https://leetcode.cn/problems/longest-turbulent-subarray/) \| [LeetCode](https://leetcode.com/problems/longest-turbulent-subarray/) \| [AcWing]() \| [题解]() | DP | :star::star: |
+|[1049-最后一块石头的重量 II](https://leetcode.cn/problems/last-stone-weight-ii/) \| [LeetCode](https://leetcode.com/problems/last-stone-weight-ii/) \| [AcWing](https://www.acwing.com/activity/content/problem/content/5870/) \| [题解]() | DP | :star::star: |
 |[1305-两棵二叉搜索树中的所有元素](https://leetcode.cn/problems/all-elements-in-two-binary-search-trees/) \| [LeetCode](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/) \| [AcWing]() \| [题解]() | BST | :star::star: |
 
 
