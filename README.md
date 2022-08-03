@@ -26,9 +26,9 @@ My Algorithm Learning Path For Work
 
 | 题目 | 标签 | 难度 |
 |:-|:-:|:-:|
-|[剑指 Offer 09. 用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) \| [力扣]() \| [题解]() | 栈/队列 | :star: |
-|[剑指 Offer 24. 反转链表](https://leetcode.cn/problems/fan-zhuan-lian-biao-lcof/) \| [力扣]() \| [题解]() | 链表 | :star: |
-
+|[剑指 Offer 09. 用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) \| [题解]() | 栈/队列 | :star: |
+|[剑指 Offer 24. 反转链表](https://leetcode.cn/problems/fan-zhuan-lian-biao-lcof/) \| [题解]() | 链表 | :star: |
+|[剑指 Offer 25. 合并两个排序的链表](https://leetcode.cn/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/) \| [题解]() | 链表 | :star: |
 
 
 ## 剑指 Offer（专项突击版）
