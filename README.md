@@ -21,6 +21,12 @@ My Algorithm Learning Path For Work
 |[1305-两棵二叉搜索树中的所有元素](https://leetcode.cn/problems/all-elements-in-two-binary-search-trees/) \| [LeetCode](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/) \| [AcWing]() \| [题解]() | BST | :star::star: |
 
 
+### Update
+
+| 题目 | 标签 | 难度 |
+|:-|:-:|:-:|
+|[1475-商品折扣后的最终价格](https://leetcode.cn/problems/final-prices-with-a-special-discount-in-a-shop/) \| [LeetCode](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) \| [AcWing]() \| [题解]() | 单调栈 | :star: |
+
 
 ## 剑指 Offer（第 2 版）
 
