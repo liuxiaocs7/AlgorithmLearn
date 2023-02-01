@@ -1,3 +1,5 @@
+package leetcodego
+
 /*
  * @lc app=leetcode.cn id=2325 lang=golang
  *
@@ -29,4 +31,3 @@ func decodeMessage(key string, message string) string {
 }
 
 // @lc code=end
-
