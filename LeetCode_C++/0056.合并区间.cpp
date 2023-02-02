@@ -8,21 +8,17 @@
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
-        if(intervals.size() == 0) {
-            return {};
-        }
-
         sort(intervals.begin(), intervals.end());
-        vector<vector<int>> ans;
-        for(int i = 0; i < intervals.size(); i++) {
-            int l = intervals[i][0], r = intervals[i][1];
-            if(ans.size() == 0 || ans.back()[1] < l) {
-                ans.push_back({l, r});
+        
+        vector<vector<int>> res;
+        for (auto interval : intervals) {
+            if (res.empty() || res.back()[1] < interval[0]) {
+                res.push_back(interval);
             } else {
-                ans.back()[1] = max(ans.back()[1], r);
+                res.back()[1] = max(res.back()[1], interval[1]);
             }
         }
-        return ans;
+        return res;
     }
 };
 // @lc code=end
