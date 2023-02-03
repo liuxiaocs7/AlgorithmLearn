@@ -8,19 +8,20 @@
 class Solution {
 public:
     vector<int> partitionLabels(string s) {
+        vector<int> right(26);
         int n = s.size();
-        vector<int> idx(26, 0);
-        for(int i = 0; i < n; i++) idx[s[i] - 'a'] = i;
+        for (int i = 0; i < n; i++) {
+            right[s[i] - 'a'] = i;
+        }
 
         vector<int> res;
-        for(int i = 0; i < n; ) {
-            int j = 0, maxRight = idx[s[i] - 'a'];
-            while(j < n && j < maxRight) {
-                j++;
-                maxRight = max(maxRight, idx[s[j] - 'a']);
+        int l = 0, r = 0;
+        for (int i = 0; i < n; i++) {
+            r = max(r, right[s[i] - 'a']);
+            if (i == r) {
+                res.push_back(r - l + 1);
+                l = r = i + 1;
             }
-            res.push_back(j - i + 1);
-            i = j + 1;
         }
         return res;
     }
